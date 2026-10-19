@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Lonak VPN</string>
+    <string name="app_slogan">Lonak VPN — Free Flight in the Internet</string>
+    <string name="app_subtitle">Simurgh of Open Internet</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_servers">Servers</string>
+    <string name="nav_scanner">Scanner</string>
+    <string name="nav_logs">Logs</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="vpn_status_disconnected">Disconnected</string>
+    <string name="vpn_status_connecting">Connecting…</string>
+    <string name="vpn_status_connected">Protected &amp; Connected</string>
+    <string name="vpn_status_stopping">Disconnecting…</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="quick_connect">Quick Connect</string>
+    <string name="best_server">Smart Best Server</string>
+    <string name="download_speed">Download</string>
+    <string name="upload_speed">Upload</string>
+    <string name="connection_duration">Duration</string>
+    <string name="active_server">Active Server</string>
+    <string name="no_server_selected">No server selected. Tap to pick one.</string>
+    <string name="clean_ip_badge">Clean IP Verified</string>
+    <string name="no_ads_active">Ad-Block Active</string>
+
+    <!-- Servers -->
+    <string name="search_servers">Search server, country, protocol…</string>
+    <string name="all_protocols">All</string>
+    <string name="sort_ping">Lowest Ping</string>
+    <string name="sort_speed">Fastest</string>
+    <string name="sort_stability">Most Stable</string>
+    <string name="sort_newest">Newest</string>
+    <string name="add_server">Add Server</string>
+    <string name="import_from_clipboard">Import from Clipboard</string>
+    <string name="import_from_file">Import from File</string>
+    <string name="add_subscription">Add Subscription Link</string>
+    <string name="test_all_ping">Test All Pings</string>
+    <string name="ping_ms">%1$d ms</string>
+    <string name="tag_fast">⚡ Fast</string>
+    <string name="tag_stable">🔒 Stable</string>
+    <string name="tag_tested">🧪 Tested</string>
+    <string name="tag_new">🆕 New</string>
+    <string name="empty_servers_title">No servers found</string>
+    <string name="empty_servers_desc">Use the Scanner tab to find clean high-speed servers or import configs.</string>
+
+    <!-- Scanner -->
+    <string name="scanner_title">Smart Server Scanner</string>
+    <string name="scanner_subtitle">Auto-collect &amp; benchmark from public verified repositories</string>
+    <string name="start_scan">Start Deep Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="scanning">Scanning &amp; Testing…</string>
+    <string name="scan_idle">Ready to scan public sources</string>
+    <string name="found_configs">Found: %1$d</string>
+    <string name="clean_ips_found">Clean IPs: %1$d</string>
+    <string name="current_step">Current: %1$s</string>
+    <string name="preset_sources">Preset Repositories</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="dns_settings">DNS &amp; Anti-Censorship</string>
+    <string name="dns_provider">DNS Provider</string>
+    <string name="adblock_title">Ad &amp; Tracker Blocker</string>
+    <string name="adblock_desc">Block intrusive ads and trackers using AdAway &amp; StevenBlack rules</string>
+    <string name="kill_switch_title">Kill Switch</string>
+    <string name="kill_switch_desc">Block non-VPN traffic when VPN drops unexpectedly</string>
+    <string name="split_tunneling">Split Tunneling</string>
+    <string name="split_tunneling_desc">Select which apps bypass or use the VPN tunnel</string>
+    <string name="auto_reconnect">Auto-Reconnect</string>
+    <string name="auto_reconnect_desc">Reconnect automatically with exponential backoff if socket drops</string>
+    <string name="language">Language</string>
+    <string name="theme_mode">Theme</string>
+    <string name="about_lonak">About Lonak VPN</string>
+    <string name="privacy_policy">No logs, open source, community driven</string>
+
+    <!-- Logs -->
+    <string name="logs_title">System &amp; Tunnel Logs</string>
+    <string name="clear_logs">Clear</string>
+    <string name="copy_logs">Copy</string>
+    <string name="log_level_all">All</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut_connect_fast">Fast Connect</string>
+    <string name="shortcut_scan">Scan Servers</string>
+    <string name="shortcut_my_servers">My Servers</string>
+    <string name="shortcut_settings">Settings</string>
+</resources>

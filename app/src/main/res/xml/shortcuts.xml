@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="connect_fast"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_connect_fast"
+        android:shortcutLongLabel="@string/shortcut_connect_fast">
+        <intent
+            android:action="ir.lonak.vpn.CONNECT_FAST"
+            android:targetPackage="com.aistudio.lonakvpn.ptzk"
+            android:targetClass="com.example.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="scan_servers"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_scan"
+        android:shortcutLongLabel="@string/shortcut_scan">
+        <intent
+            android:action="ir.lonak.vpn.SCAN_SERVERS"
+            android:targetPackage="com.aistudio.lonakvpn.ptzk"
+            android:targetClass="com.example.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="my_servers"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_my_servers"
+        android:shortcutLongLabel="@string/shortcut_my_servers">
+        <intent
+            android:action="ir.lonak.vpn.MY_SERVERS"
+            android:targetPackage="com.aistudio.lonakvpn.ptzk"
+            android:targetClass="com.example.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_settings"
+        android:shortcutLongLabel="@string/shortcut_settings">
+        <intent
+            android:action="ir.lonak.vpn.SETTINGS"
+            android:targetPackage="com.aistudio.lonakvpn.ptzk"
+            android:targetClass="com.example.MainActivity" />
+    </shortcut>
+</shortcuts>

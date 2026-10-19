@@ -1,0 +1,6 @@
+{
+  "name": "Lonak VPN",
+  "description": "کلاینت چندپروتکلی VPN با اسکنر هوشمند سرور، تست پینگ زنده، بدون تبلیغات و هویت بصری سیمرغ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
